@@ -1,7 +1,6 @@
 import React from 'react';
-import Productbox from './Productbox';
 
-function Productbox() {
+function Productbox(props) {
     return (
         <div className='a-box'>
             <div className='a-b-img'>
@@ -15,5 +14,5 @@ function Productbox() {
             </div>
             </div>
     )
-}
+    }
 export default Productbox;

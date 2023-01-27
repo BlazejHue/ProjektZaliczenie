@@ -5,8 +5,8 @@ import Header from './Komponenty/Header';
 import Products from './Komponenty/Products';
 import About from './Komponenty/About';
 import Contact from './Komponenty/Contact';
-import {css} from "@emotion/core";
-import { PropagateLoader } from 'react-spinners/PropagateLoader';
+import {css} from '@emotion/react';
+import  PropagateLoader  from 'react-spinners/PropagateLoader';
 
 
 function App() {

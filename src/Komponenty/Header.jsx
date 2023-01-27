@@ -5,7 +5,7 @@ function Header() {
         <div id="main">
             <div className='header-heading'>
                 <h3> It's Great Time For A Good Burger</h3>
-                <h1><span>BURGER</span> FOR<br/>WEEK</h1>
+                <h1><span>BURGER</span> FOR <br/> WEEK </h1>
                 <p className='details'> fresh meat and vegetables are all what u want </p>
                 <div className='header-btns'>
                     <a href='#' className='header-btn'>Order</a>
@@ -14,3 +14,4 @@ function Header() {
         </div>
     )
 }
+export default Header;
